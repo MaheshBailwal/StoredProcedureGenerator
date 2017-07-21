@@ -70,3 +70,7 @@ As we know in SQL server we cannot insert/update identity and timestamp/rowversi
 #### SQL Server Key Words
 
 The utility wraps the table name/field name inside square brackets [] if it is SQL server key word (like order, form, etc.). The utility maintains the list of SQL server key words inside a lookup file called “SqlKeyWords.txt". In case you find any keyword that causing issue and not getting wrapped inside square brackets, then you can add the SQL key word in SqlKeyWords.txt file to make it work.
+
+## References
+
+[Working with Checkboxes in the WPF TreeView](http://www.codeproject.com/Articles/28306/Working-with-Checkboxes-in-the-WPF-TreeView)  
