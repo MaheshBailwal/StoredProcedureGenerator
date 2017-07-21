@@ -1,5 +1,5 @@
 
--# StoredProcedureGenerator
+# StoredProcedureGenerator
  -Stored Procedure Generator For SQL Server
 
 ## Introduction
@@ -14,7 +14,7 @@ The utility is developed using C# WPF (MVVM pattern) in .NET Framework 4.0\. Thi
 
 Once you run the attached utility, you get a window as shown in the below figure:
 
-![](https://www.codeproject.com/KB/database/771755/Initail.png)
+![](https://raw.githubusercontent.com/MaheshBailwal/StoredProcedureGenerator/master/Images/Initail.png)
 
 As you can see in the above screen, there are four action buttons (Connect To Server, Generate SP, Settings and Copy Generated SP). I will explain the significance of all them one by one.
 
@@ -22,7 +22,7 @@ As you can see in the above screen, there are four action buttons (Connect To Se
 
 This first thing you need to do is to connect to SQL server where you have the tables for which you want to generate stored procedure. You need to enter connection string in the given text box and after that, click on “Connect to Server" button. Once the application is successfully connected to the SQL server, it will show all the tables of database as shown in the below figure:
 
-![](ConnectToServer.png)
+![](https://raw.githubusercontent.com/MaheshBailwal/StoredProcedureGenerator/master/Images/ConnectToServer.png)
 
 ### Generate SP
 
@@ -33,7 +33,7 @@ For generating `insert` stored procedure for a single table, you need to perform
 3.  Now select the fields which you want to include in your `insert` stored procedure.
 4.  Finally click on Generate SP button. Your `insert` stored procedure will be visible in the Text Box as shown in the below figure:
 
-![](InsertSp.png)
+![](https://raw.githubusercontent.com/MaheshBailwal/StoredProcedureGenerator/master/Images/InsertSp.png)
 
 ### Generate SP
 
@@ -45,7 +45,7 @@ For generating update SP for single table, you need to perform the following ste
 4.  If you want to do conditional update for that expand "Where Clause Fields" which is the last node in update field list and select fields which you want to include in where clause.
 5.  Finally click on Generate SP button. Your update stored procedure will be visible in the Text Box as shown in the below figure:
 
-![](UpdateSp.png)
+![](https://raw.githubusercontent.com/MaheshBailwal/StoredProcedureGenerator/master/Images/UpdateSp.png)
 
 ### Settings
 
@@ -57,7 +57,7 @@ Using settings button, you can customize few things given below:
 *   **Where Parameter Prefix**: This setting allows you to customize the prefix of "Where Clause" parameter name. The name of `where` clause parameter is composed of `<Where Parameter Prefix> + <FieldName>`
 *   **Error Handling**: This setting allows you to enable/disable error handling, if this setting is on then stored procedure will contain `Try`-`Catch` block for handling errors.
 
-![](Settings.png)
+![](https://raw.githubusercontent.com/MaheshBailwal/StoredProcedureGenerator/master/Images/Settings.png)
 
 ### Copy Generated SP
 
